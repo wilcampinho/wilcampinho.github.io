@@ -34,7 +34,7 @@ header > .nav > .navbar > ul > li > .a_grande {
 .search {
   float:right;
 }
-header > .nav > .search > a > .sombra {
+header > .nav > .search > .sombra {
   box-shadow:3px 3px 3px;
   margin-right:20px;
 }
