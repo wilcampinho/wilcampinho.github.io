@@ -47,13 +47,13 @@ header > .nav > .search > a > .sombra {
   float:right;
   margin-top:150px;
 }
-.nav_inf > ul > a > li {
+.nav_inf > ul > li {
   padding:2px 40px;
   border:2px solid black;
   display:inline;
   margin-left:10px;
 }
-.nav_inf > ul > a {
+.nav_inf > ul > li > a {
   text-decoration: none;
   color:black;
 }
@@ -73,11 +73,11 @@ article > section img {
 .lista_esquerda {
   margin-bottom:30px;
 }
-article > section > .lista_esquerda > ul > a {
+article > section > .lista_esquerda > ul > li > a {
   text-decoration:none;
   color:black;
 }
-article > section > .lista_esquerda > ul > a > li{
+article > section > .lista_esquerda > ul > li{
   display:block;
   padding:5px 10px;
   margin-left:-40px;
