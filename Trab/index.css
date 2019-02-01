@@ -217,6 +217,9 @@ article > aside > .slide {
 }
 article > aside > .slide img {
   position:absolute;
+  height:100px;
+  width:100px;
+  margin-top:15px;
 }
 article > aside > .slide > .links {
   margin-top:115%;
@@ -241,17 +244,24 @@ article > aside > .slide > .links > .stop {
 }
 article > aside > .meio_direita_baixo {
   margin-top:20px;
-  height:132px;
+  height:180px;
+  width: 200px;
 }
-article > aside > .meio_direita_baixo > .conteudo_esquerda {
-  width:30%;
-}
+
 article > aside > .meio_direita_baixo > .conteudo_direita {
   width:70%;
 }
 article > aside > .meio_direita_baixo > .conteudo_direita p {
   font-size:1.2em;
   font-weight:bold;
+}
+.meio_direita_baixo {
+  border: 1px solid black;
+}
+.meio_direita_baixo img {
+    height:100px;
+  width:100px;
+  margin-top:15px;
 }
 
 footer {
