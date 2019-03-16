@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript">
+		function Digitando () {
+			var texto = document.getElementById('digita');
+			var digita = document.getElementById('idtexto');
+			texto.textContent = digita.value;
+		}
+	</script>
+</head>
+<body>
+
+	<input type="text" name="texto" id = "idtexto" onkeyup="Digitando()">
+	Voce esta digitando: "<span id="digita"></span>"
+ 
+</body>
+</html>
